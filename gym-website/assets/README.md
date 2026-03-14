@@ -16,7 +16,7 @@ The goal of this project was to practice:
 - Structuring real-world landing pages with HTML
 - Designing layouts using CSS
 - Organizing content into clear sections
-- Creating a visually engaging hero section with a background image
+- Creating a visually engaging hero section with a background image 
 - Improving UI layout and spacing
 
 ---
