@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Sequence TechStore</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="assets/icons/logo.png">
+            <span>Sequence TechStore</span>
+        </div>
+
+        <nav>
+            <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            <a href="products.html"><i class="fas fa-box"></i> Products</a>
+            <a href="cart.html" class="active"><i class="fas fa-shopping-cart"></i> Cart</a>
+            <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+        </nav>
+    </header>
+
+    <!-- CART -->
+    <section class="cart container fade-in">
+
+        <h1>Your Cart 🛒</h1>
+
+        <div class="cart-container">
+
+            <!-- ITEM 1 -->
+            <div class="cart-item">
+                <img src="assets/images/laptop.jpg">
+
+                <div class="cart-info">
+                    <h3>MacBook Pro</h3>
+                    <p>₦1,200,000</p>
+                </div>
+
+                <input type="number" value="1" min="1">
+
+                <button class="remove-btn">Remove</button>
+            </div>
+
+            <!-- ITEM 2 -->
+            <div class="cart-item">
+                <img src="assets/images/headphones.jpg">
+
+                <div class="cart-info">
+                    <h3>Headphones</h3>
+                    <p>₦120,000</p>
+                </div>
+
+                <input type="number" value="1" min="1">
+
+                <button class="remove-btn">Remove</button>
+            </div>
+
+        </div>
+
+        <!-- TOTAL -->
+        <div class="cart-total">
+            <h2>Total: ₦1,320,000</h2>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <h3>Sequence TechStore</h3>
+        <p>Your online store for affordable luxury gadgets.</p>
+        <p>© 2026 All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
